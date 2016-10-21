@@ -1,0 +1,25 @@
+{
+  "name": "build-processing-py",
+  "main": "./lib/build-processing-py.js",
+  "version": "0.1.2",
+  "description": "Processing.py build system for Atom",
+  "keywords": [
+    "build",
+    "processing.py",
+    "processing",
+    "python"
+  ],
+  "repository": "https://github.com/tildebyte/build-processing-py",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  },
+  "providedServices": {
+    "builder": {
+      "description": "Processing.py build system for Atom",
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  }
+}
